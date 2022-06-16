@@ -1,0 +1,47 @@
+.headdiv{
+height: 100vh;
+width: 100vw;
+background-image: url("https://wallpaperaccess.com/full/2005304.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.dot {
+  max-width: 100%;
+  height: auto;
+}
+img{
+  height: auto;
+  width: 100%;
+}
+.foto1{
+ background: url(https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d3JpdGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80); 
+}
+.foto2{
+  background: url(https://images.unsplash.com/photo-1542107617-e760dc92dcdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aGFuZHMlMjB1cHxlbnwwfHwwfHw%3D&w=1000&q=80);
+}
+.foto3{
+   background: url(https://media.istockphoto.com/photos/sharp-pencil-and-pencil-shaving-on-white-background-picture-id1339623906?b=1&k=20&m=1339623906&s=170667a&w=0&h=yO7hoBkYMSVKeDBrFI1opscYZSTIz0lLgPiB4okOj_Y=);
+}
+.foto1,.foto2,.foto3{
+  background-size: cover;
+	background-position: 50%;
+}
+.promo-item {
+    line-height: 180px;
+    text-align: center;
+}
+.promo-item:hover {
+    background-size: 115%; 
+    border: 10px;
+    line-height: 200px;
+}
+
+.promo-item h1 {
+    font-size: 42px;
+    display: inline-block;
+    vertical-align: middle;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Koulen', arial, cursive;
+}
